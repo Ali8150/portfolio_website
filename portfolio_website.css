@@ -1,0 +1,315 @@
+
+
+/* This is the resume home part css */
+.home_class {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), transparent),
+      url("https://www.xmple.com/wallpaper/gradient-pink-purple-linear-1920x1080-c2-6a5acd-ff69b4-a-255-f-14.svg");
+    background-size: cover;
+    background-position: center;
+    padding: 16%;
+    margin: 0%;
+  }
+  
+  
+  
+  .home_class .text_box {
+    color: #fff;
+    position: absolute;
+  }
+  
+  .home_class .text_box p {
+    font-size: 236%;
+    line-height: 53%;
+    margin-left: -7%;
+    color: transparent;
+  
+    -webkit-text-stroke: 1px #fff;
+    background: url("https://alikhan.dev/download/back.png");
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 30s linear infinite;
+  }
+  @keyframes back {
+    100% {
+      background-position: 2000px 0;
+    }
+  }
+  .home_class .text_box h1 {
+    font-size: 830%;
+    line-height: 118%;
+    margin-left: 6%;
+    /*
+  buttom section for animeted text;
+  
+  */
+    color: transparent;
+  
+    -webkit-text-stroke: 1px #fff;
+    background: url("https://alikhan.dev/download/back.png");
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 60s linear infinite;
+  }
+  @keyframes back {
+    100% {
+      background-position: 2000px 0;
+    }
+  }
+  
+   .home_class .text_box h3 {
+    font-size: 400%;
+    line-height: 136%;
+    margin-left: -7%;
+    /*
+  buttom section for animeted text;
+  
+  */
+    color: transparent;
+  
+    -webkit-text-stroke: 1px #fff;
+    background: url("https://alikhan.dev/download/back.png");
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 60s linear infinite;
+  }
+  @keyframes back {
+    100% {
+      background-position: 2000px 0;
+    }
+  }
+  
+  .home_class .text_box .ROW {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+
+    
+  }
+  .home_class .text_box a {
+    color: #fff;
+   
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border: 2px solid #fff;
+  }
+  
+  .home_class .text_box a:hover {
+    background-color: #1b1c1d;
+  }
+  .home_class .text_box a:visited {
+    color: #fff;
+  }
+  
+  
+  
+  
+  
+  /* The bottom of this is the resume body part css */
+  .resume_class {
+  
+  width: 101%;
+      height: 135vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), transparent),
+      url("https://cdn.hipwallpaper.com/i/11/62/4zlOkK.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 0%;
+    margin: 0%;
+  }
+  
+  
+  
+  
+  .resume_class .resume_txt .summary{
+  padding-left: 3%;
+  padding-bottom: 0%;
+  padding-top: 9%;
+      
+  
+  }
+  
+  .resume_class .resume_txt .summary h1{
+  
+  
+  color: black;
+  
+  
+      font-size: 217%;
+  
+  }
+  
+  .resume_class .resume_txt .summary p{
+  
+  
+  color: black;
+  font-size: 151%;
+  
+  
+  
+  }
+  .resume_class .resume_txt .Experience{
+  padding-left: 3%;
+  
+  
+  }
+  
+  .resume_class .resume_txt .Experience h1{
+  
+  
+  color: black;
+  
+  
+      font-size: 217%;
+  
+  }
+  
+  .resume_class .resume_txt .Experience p{
+  
+  
+  color: black;
+  font-size: 151%;
+  
+  
+  
+  }
+  .resume_class .resume_txt .Experience h3{
+  
+  
+  color: black;
+  font-size: 170%;
+  
+  
+  
+  }
+  .resume_class .resume_txt .Experience li{
+  
+  
+  color: black;
+  font-size: 170%;
+  
+  
+  
+  }
+  
+  
+  
+  .resume_year{
+  font-size: 170%;
+  color: black;
+  }
+  
+  
+  
+  .resume_year .exprience01{
+  font-size: 170%;
+      padding-top: 28%;
+      color: black;
+  
+  }
+  .resume_year  .exprience02{
+  
+      padding-top: 60%;
+      
+  
+  }
+  .resume_class .resume_txt .Education{
+  padding-left: 3%;
+  
+  
+  }
+  .resume_class .resume_txt .Education h1{
+  
+  
+  color: black;
+  
+  
+      font-size: 217%;
+  
+  }
+  
+  .resume_class .resume_txt .Education p{
+  
+  
+  color: black;
+  font-size: 151%;
+  
+  
+  
+  }
+  .resume_class .resume_txt .Education h3{
+  
+  
+  color: black;
+  font-size: 170%;
+  
+  
+  
+  }
+  .resume_class .resume_txt .visa{
+  
+  
+  padding-left: 3%;
+  padding-bottom: 0%;
+      
+  
+  
+  }
+  
+  .resume_class .resume_txt .visa h1{
+  
+  
+  color: black;
+  
+  
+      font-size: 217%;
+  
+  }
+  
+  .resume_class .resume_txt .visa p{
+  
+  
+  color: black;
+  font-size: 151%;
+  
+  
+  
+  }
+  .skill{
+   
+      padding-top: 3%;
+      margin-right: 1%;
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* The bottom of this is the contact body part css */
+  .contact_class {
+   width: 100%;
+      height: 100vh;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.3), transparent), url(https://alikhan.dev/download/web-design-2906159_1920.jpg);
+      background-size: cover;
+      background-position: center;
+      padding-top: 3%;
+      margin: 0%;
+      padding-left: 46%;
+  }
+  
+  .contact .send_msg {
+  
+  font-size: 214%;
+      color: blanchedalmond;
+  
+  
+  }
