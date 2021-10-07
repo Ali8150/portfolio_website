@@ -95,6 +95,7 @@
     padding: 10px 20px;
     margin-right: 20px;
     border: 2px solid #fff;
+    width: 27%;
   }
   
   .home_class .text_box a:hover {
@@ -104,7 +105,11 @@
     color: #fff;
   }
   
-  
+  .home_class .text_box span{
+ padding-top: 2%;
+
+
+  }
   
   
   
@@ -112,7 +117,7 @@
   .resume_class {
   
   width: 101%;
-      height: 135vh;
+      height: 202vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), transparent),
       url("https://cdn.hipwallpaper.com/i/11/62/4zlOkK.jpg");
     background-size: cover;
@@ -127,7 +132,7 @@
   .resume_class .resume_txt .summary{
   padding-left: 3%;
   padding-bottom: 0%;
-  padding-top: 9%;
+  padding-top: 12%;
       
   
   }
@@ -206,13 +211,13 @@
   
   .resume_year .exprience01{
   font-size: 170%;
-      padding-top: 28%;
+      padding-top: 36%;
       color: black;
   
   }
   .resume_year  .exprience02{
   
-      padding-top: 60%;
+      padding-top: 115%;
       
   
   }
@@ -280,7 +285,7 @@
   }
   .skill{
    
-      padding-top: 3%;
+      padding-top: 5%;
       margin-right: 1%;
   
   }
@@ -306,10 +311,31 @@
       padding-left: 46%;
   }
   
-  .contact .send_msg {
-  
-  font-size: 214%;
-      color: blanchedalmond;
-  
-  
+  .contact_class .info {
+
+    font-size: 290%;
+    color: blanchedalmond;
+    padding-top: 11%;
+
   }
+  .contact_class .info a{
+    color: #fff;
+   
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 20px;
+
+    width: 27%;
+  }
+  
+  .contact_class .info  a:hover {
+    background-color: #1b1c1d;
+  }
+  ..contact_class .info a:visited {
+    color: #fff;
+  }
+
+
+
+
+  
