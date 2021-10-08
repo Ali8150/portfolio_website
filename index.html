@@ -328,6 +328,15 @@ navigation, page optimization, and graphics integration.</li>
   
     <!-- Bootstrap 5 starter form -->
     <form  id="contactForm ">
+      <div class="mb-3">
+        <div id="send_mail_success" style="display: none;" class="alert alert-success" role="alert">
+          Email Successfully Send
+        </div>
+  
+        <div id="send_mail_danger" style="display: none;" class="alert alert-danger" role="alert">
+          Error Sending Email
+        </div>
+      </div>
   
       <!-- Name input -->
       <div class="mb-3">
@@ -349,7 +358,7 @@ navigation, page optimization, and graphics integration.</li>
   
       <!-- Form submit button -->
       <div class="d-grid">
-        <button class="btn btn-primary btn-lg" type="submit">Submit</button>
+        <button id="send_email" class="btn btn-primary btn-lg" type="button">Submit</button>
       </div>
   
     </form>
@@ -375,6 +384,41 @@ navigation, page optimization, and graphics integration.</li>
     </div>
 
     <?php include 'portfolio_web.php';?> 
+
+    <script type="text/javascript">
+      var send_email = function(name,email,msg) {
+        var http = new XMLHttpRequest();
+        var url = 'https://alikhan.dev/mohammad_portfolio_email/send_email.php';
+        http.open('POST', url, true);
+
+        //Send the proper header information along with the request
+        http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+
+        http.onreadystatechange = function() {
+          //Call a function when the state changes.
+          if(http.readyState == 4 && http.status == 200) {
+              var flag = http.responseText;
+              if(flag === '1') {
+                document.querySelector("#send_mail_success").style.display = 'block';    
+              }
+              else {
+                document.querySelector("#send_mail_danger").style.display = 'block';  
+              }
+          }
+        }
+
+        var params = `name=${name}&email=${email}&msg=${msg}`;
+        http.send(params);  
+      }
+
+      document.querySelector("#send_email").addEventListener('click',function() {
+          var name = document.querySelector("#name").value;
+          var email = document.querySelector("#emailAddress").value;
+          var msg = document.querySelector("#message").value;
+
+          send_email(name,email,msg);
+      });
+    </script>
 
 </body>
 </html>
