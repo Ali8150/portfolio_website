@@ -4,7 +4,10 @@
 <head>
   <title>Mohammad Ali </title>
   <link rel="stylesheet" href="portfolio_website.css">
+  <link rel="stylesheet" href="protfolio_mobile.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">>
 <meta name="viewport" content="width=device-width,initail-scale=1.0">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
 
@@ -56,7 +59,7 @@
 
 
     <div class="main">
-      <!--This section start for home and it's part of main body part -->
+      <!-- This section start for home and it's part of main body part -->
 
       <div class="home_class" id="home">
      <div class="text_box">
@@ -314,28 +317,64 @@ navigation, page optimization, and graphics integration.</li>
 
       <!--This section start for contact and it's part of main body part -->
       <div class="contact_class" id="contact">
-<div class="info">
 
 
-<hi>Contact with Me</hi>
+        
+
+<!-- Wrapper container -->
+<div class="send_msg">
+  <hi style="font-size: 158%;font-family: fantasy;">Let's Talk</hi>
+  <div class="py-4 row">
+  
+    <!-- Bootstrap 5 starter form -->
+    <form  id="contactForm ">
+  
+      <!-- Name input -->
+      <div class="mb-3">
+        <label class="form-label " for="name">Name</label>
+        <input class="form-control" id="name" type="text" placeholder="Name" data-sb-validations="required" />
+      </div>
+  
+      <!-- Email address input -->
+      <div class="mb-3">
+        <label class="form-label" for="emailAddress">Email Address</label>
+        <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="required, email" />
+      </div>
+  
+      <!-- Message input -->
+      <div class="mb-3">
+        <label class="form-label" for="message">Message</label>
+        <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" data-sb-validations="required"></textarea>
+      </div>
+  
+      <!-- Form submit button -->
+      <div class="d-grid">
+        <button class="btn btn-primary btn-lg" type="submit">Submit</button>
+      </div>
+  
+    </form>
+  
+  </div>
+</div>
+        <div class="info">
+
+
+
 <ul>
-
-<li>Phone number : 929-786-0833</li>
-<li>Email: mohammadalikhan555@gmail.com </li>
-<li>Github: <a href="https://github.com/Ali8150">Github</a></li>
-<li>LinkedIn: <a href="https://www.linkedin.com/in/mohammad-ali-306955113/">LinkedIn</a> </li>
+  
+<li><img src="https://img.icons8.com/color/48/000000/phone-message--v2.png"/> : 929-786-0833</li>
+<li><img src="https://img.icons8.com/ultraviolet/40/000000/email-open--v2.png"/> : mohammadalikhan555@gmail.com </li>
+<img src="https://img.icons8.com/color-glass/48/000000/github.png"/>: <a href="https://github.com/Ali8150">Github</a></li>
+<li><img src="https://img.icons8.com/color/48/000000/linkedin-2--v2.png"/> : <a href="https://www.linkedin.com/in/mohammad-ali-306955113/">LinkedIn</a> </li>
 
 </ul>
 
 </div>
 
 
-
-
-
-
-
     </div>
+
+    <?php include 'portfolio_web.php';?> 
 
 </body>
 </html>
