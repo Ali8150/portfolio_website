@@ -25,6 +25,7 @@
 .home_class .text_box {
   color: #fff;
   position: absolute;
+  margin-top: -3%;
 }
 
 .home_class .text_box p {
