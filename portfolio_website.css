@@ -150,7 +150,7 @@ padding-top: 2%;
   
   color: black;
   
-  
+  font-family: fantasy;
       font-size: 217%;
   
   }
@@ -174,7 +174,7 @@ padding-top: 2%;
   
   
   color: black;
-  
+  font-family: fantasy;
   
       font-size: 217%;
   
@@ -187,11 +187,10 @@ padding-top: 2%;
   font-size: 151%;
   
   
-  
   }
   .resume_class .resume_txt .Experience h3{
   
-  
+    font-family: fantasy;
   color: black;
   font-size: 170%;
   
@@ -221,11 +220,13 @@ padding-top: 2%;
   font-size: 170%;
       padding-top: 36%;
       color: black;
+      
   
   }
   .resume_year  .exprience02{
   
       padding-top: 115%;
+      f
       
   
   }
@@ -238,7 +239,7 @@ padding-top: 2%;
   
   
   color: black;
-  
+  font-family: fantasy;
   
       font-size: 217%;
   
@@ -255,7 +256,7 @@ padding-top: 2%;
   }
   .resume_class .resume_txt .Education h3{
   
-  
+    font-family: fantasy;
   color: black;
   font-size: 170%;
   
@@ -277,14 +278,14 @@ padding-top: 2%;
   
   color: black;
   
-  
+  font-family: fantasy;
       font-size: 217%;
   
   }
   
   .resume_class .resume_txt .visa p{
   
-  
+    
   color: black;
   font-size: 151%;
   
@@ -300,36 +301,46 @@ padding-top: 2%;
 /* The bottom of this is the contact body part css */
   .portfolio_class{
 
-    width: 100%;
-    width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), transparent), url(https://wallpaperaccess.com/full/250725.jpg);
-    background-size: cover;
-    background-position: center;
-    padding-top: 10%;
+  width: 100%;
+height: 100%;
+background: linear-gradient(135deg, rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.4) 25%,rgba(0,23,149, 0.6) 50%,rgba(255,0,0, 0.6) 75%,rgba(0, 23,149, 0.6) 100% );
+background-position: center;
+background-repeat:no-repeat ;
+background-size: 200% 200% ;
+padding-top: 10%;
     margin: 0%;
     padding-left: 18%;
+transition: 1s;
 
 
+  } 
 
+  .portfolio_class:hover {
+
+    background-position:100% 100% ;
   }
+  
 
-.portfolio_class .head{
+
+
+
+
+.portfolio_class  .head{
 color:black;
 
 }
 
-.portfolio_class .head h1{
+.portfolio_class .head  h1{
 
   font-size: 360%;
-  font-family: monospace;
+  font-family: fantasy;
 
 }
 
-.portfolio_class .head p{
+.portfolio_class .head  p{
 
   font-size: 144%;
-  font-family: monospace;
+  font-family: fantasy;
 
 }
 .portfolio_class .work{
@@ -337,14 +348,90 @@ color:black;
 padding-top: 4%;
 
 }
+.portfolio_class .fresh{
 
-.portfolio_class .pic{
+transition: 1s;
+
+}
+
+
+.portfolio_class .fresh .pic{
 
 background-color: #417a08;
 
 }
 
+.portfolio_class .fresh img{
+display: block;
+width: 100%;
+border-radius: 5px;
 
+}
+
+.portfolio_class .fresh:hover{
+
+transform: scale(1.3);
+z-index: 2;
+}
+
+
+
+
+
+.portfolio_class .chaldal {
+
+  transition: 1s;
+  
+  }
+
+
+  .portfolio_class .chaldal img{
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    
+    }
+    
+    .portfolio_class .chaldal:hover{
+    
+    transform: scale(1.3);
+    z-index: 2;
+    }
+
+    .portfolio_class .chaldal .pic{
+
+      height: 90px;
+      
+      }
+
+      .portfolio_class .sharis {
+
+        transition: 1s;
+        
+        }
+      
+      
+        .portfolio_class .sharis img{
+          display: block;
+          width: 100%;
+          border-radius: 5px;
+          
+          }
+          
+          .portfolio_class .sharis:hover{
+          
+          transform: scale(1.3);
+          z-index: 2;
+          }
+
+
+
+
+  .portfolio_class .sharis .pic{
+
+    height: 74px;
+    
+    }
 
 
   
@@ -352,7 +439,7 @@ background-color: #417a08;
   .contact_class {
    width: 100%;
    width: 100%;
-   height: 100vh;
+   height: 116vh;
    background-image: linear-gradient(rgba(0, 0, 0, 0.3), transparent), url(https://alikhan.dev/download/web-design-2906159_1920.jpg);
    background-size: cover;
    background-position: center;
@@ -365,6 +452,7 @@ background-color: #417a08;
     width: 49%;
     color: blanchedalmond;
     padding-top: 3%;
+    padding-left: 5%;
   }
   
   
