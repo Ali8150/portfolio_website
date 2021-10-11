@@ -2,120 +2,128 @@
 
 /* This is the resume home part css */
 .home_class {
-    width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), transparent),
-      url("https://www.xmple.com/wallpaper/gradient-pink-purple-linear-1920x1080-c2-6a5acd-ff69b4-a-255-f-14.svg");
-    background-size: cover;
-    background-position: center;
-    padding: 16%;
-    margin: 0%;
-  }
-  
-  
-  
-  .home_class .text_box {
-    color: #fff;
-    position: absolute;
-  }
-  
-  .home_class .text_box p {
-    font-size: 236%;
-    line-height: 53%;
-    margin-left: -7%;
-    color: transparent;
-  
-    -webkit-text-stroke: 1px #fff;
-    background: url("https://alikhan.dev/download/back.png");
-    -webkit-background-clip: text;
-    background-position: 0 0;
-    animation: back 30s linear infinite;
-  }
-  @keyframes back {
-    100% {
-      background-position: 2000px 0;
-    }
-  }
-  .home_class .text_box h1 {
-    font-size: 830%;
-    line-height: 118%;
-    margin-left: 6%;
-    /*
-  buttom section for animeted text;
-  
-  */
-    color: transparent;
-  
-    -webkit-text-stroke: 1px #fff;
-    background: url("https://alikhan.dev/download/back.png");
-    -webkit-background-clip: text;
-    background-position: 0 0;
-    animation: back 60s linear infinite;
-  }
-  @keyframes back {
-    100% {
-      background-position: 2000px 0;
-    }
-  }
-  
-   .home_class .text_box h3 {
-    font-size: 400%;
-    line-height: 136%;
-    margin-left: -7%;
-    /*
-  buttom section for animeted text;
-  
-  */
-    color: transparent;
-  
-    -webkit-text-stroke: 1px #fff;
-    background: url("https://alikhan.dev/download/back.png");
-    -webkit-background-clip: text;
-    background-position: 0 0;
-    animation: back 60s linear infinite;
-  }
-  @keyframes back {
-    100% {
-      background-position: 2000px 0;
-    }
-  }
-  
-  .home_class .text_box .ROW {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 30px;
-
-    
-  }
-  .home_class .text_box a {
-    color: #fff;
-   
-    text-decoration: none;
-    padding: 10px 20px;
-    margin-right: 20px;
-    border: 2px solid #fff;
-    width: 27%;
-  }
-  
-  .home_class .text_box a:hover {
-    background-color: #1b1c1d;
-  }
-  .home_class .text_box a:visited {
-    color: #fff;
-  }
-  
-  .home_class .text_box span{
- padding-top: 2%;
+  width: 100%;
+  height: 100vh;
+ /* background-image: linear-gradient(rgba(0, 0, 0, 0.3), transparent),
+    url("https://www.xmple.com/wallpaper/gradient-pink-purple-linear-1920x1080-c2-6a5acd-ff69b4-a-255-f-14.svg"); */
+  background-size: cover;
+  background-position: center;
+  padding: 16%;
+  margin: 0%;
+  min-width: 300px;
+}
+.home_class video{
+  position: absolute;
+ top:0;
+ left: 0;
+ width: 102%;
+ height: 109%;
+ object-fit: cover;
+}
 
 
+.home_class .text_box {
+  color: #fff;
+  position: absolute;
+}
+
+.home_class .text_box p {
+  font-size: 236%;
+  line-height: 53%;
+  margin-left: -11%;
+  color: transparent;
+
+  -webkit-text-stroke: 1px #fff;
+  background: url("https://alikhan.dev/download/back.png");
+  -webkit-background-clip: text;
+  background-position: 0 0;
+  animation: back 30s linear infinite;
+}
+@keyframes back {
+  100% {
+    background-position: 2000px 0;
   }
+}
+.home_class .text_box h1 {
+  font-size: 830%;
+  line-height: 118%;
+  margin-left: 1%;
+  /*
+buttom section for animeted text;
+
+*/
+  color: transparent;
+
+  -webkit-text-stroke: 1px #fff;
+  background: url("https://alikhan.dev/download/back.png");
+  -webkit-background-clip: text;
+  background-position: 0 0;
+  animation: back 60s linear infinite;
+}
+@keyframes back {
+  100% {
+    background-position: 2000px 0;
+  }
+}
+
+ .home_class .text_box h3 {
+  font-size: 400%;
+  line-height: 136%;
+  margin-left: 34%;
+  /*
+buttom section for animeted text;
+
+*/
+  color: transparent;
+
+  -webkit-text-stroke: 1px #fff;
+  background: url("https://alikhan.dev/download/back.png");
+  -webkit-background-clip: text;
+  background-position: 0 0;
+  animation: back 60s linear infinite;
+}
+@keyframes back {
+  100% {
+    background-position: 2000px 0;
+  }
+}
+
+.home_class .text_box .ROW {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-left: 2%
   
-  
-  
-  /* The bottom of this is the resume body part css */
-  .resume_class {
-  
+}
+.home_class .text_box a {
+  color: #fff;
+ 
+  text-decoration: none;
+  padding: 10px 20px;
+  margin-right: 20px;
+  border: 2px solid #fff;
+  width: 27%;
+}
+
+.home_class .text_box a:hover {
+  background-color: #1b1c1d;
+}
+.home_class .text_box a:visited {
+  color: #fff;
+}
+
+.home_class .text_box span{
+padding-top: 2%;
+
+
+}
+
+
+
+/* The bottom of this is the resume body part css */
+.resume_class {
+
   width: 101%;
       height: 202vh;
       background-image: linear-gradient(rgba(0, 0, 0, 0.0), transparent),
@@ -407,3 +415,4 @@ background-color: #417a08;
 
   
   
+
