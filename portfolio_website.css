@@ -124,6 +124,7 @@ padding-top: 2%;
 /* The bottom of this is the resume body part css */
 .resume_class {
 
+  /*
   width: 101%;
       height: 202vh;
       background-image: linear-gradient(rgba(0, 0, 0, 0.0), transparent),
@@ -132,6 +133,17 @@ padding-top: 2%;
     background-position: center;
     padding: 0%;
     margin: 0%;
+    background-attachment: fixed;
+*/
+
+
+background-image: url(https://images.unsplash.com/photo-1615715757401-f30e7b27b912?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Ymx1ZSUyMGFuZCUyMHdoaXRlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80);
+    
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center center ;
+background-attachment:fixed;
+
   }
   
   
@@ -226,7 +238,7 @@ padding-top: 2%;
   .resume_year  .exprience02{
   
       padding-top: 115%;
-      f
+      
       
   
   }
@@ -300,16 +312,16 @@ padding-top: 2%;
   }
 /* The bottom of this is the contact body part css */
   .portfolio_class{
+    background-attachment:fixed;
 
-  width: 100%;
-height: 100%;
 background: linear-gradient(135deg, rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.4) 25%,rgba(0,23,149, 0.6) 50%,rgba(255,0,0, 0.6) 75%,rgba(0, 23,149, 0.6) 100% );
-background-position: center;
+background-position: center center; 
 background-repeat:no-repeat ;
 background-size: 200% 200% ;
 padding-top: 10%;
-    margin: 0%;
-    padding-left: 18%;
+    padding-bottom: 25%;
+    
+    padding-left: 15%;
 transition: 1s;
 
 
@@ -437,30 +449,28 @@ z-index: 2;
   
   /* The bottom of this is the contact body part css */
   .contact_class {
-   width: 100%;
-   width: 100%;
-   height: 116vh;
-   background-image: linear-gradient(rgba(0, 0, 0, 0.3), transparent), url(https://alikhan.dev/download/web-design-2906159_1920.jpg);
-   background-size: cover;
-   background-position: center;
-   padding-top: 3%;
-   margin: 0%;
-   padding-left: 56%;
+    background-image: url(https://alikhan.dev/download/web-design-2906159_1920.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center ;
+    background-attachment:fixed;
   }
   .contact_class .send_msg{
     font-size: 153%;
     width: 49%;
     color: blanchedalmond;
     padding-top: 3%;
-    padding-left: 5%;
+    margin-left: 48%;
   }
   
   
   .contact_class .info {
 
-    font-size: 236%;
+   font-size: 236%;
     color: blanchedalmond;
     padding-top: 0%;
+    margin-left: 46%;
 }
 
   
